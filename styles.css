@@ -1,0 +1,147 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma
+}
+
+.hero {
+	background-color: #fff;
+}
+
+.container {
+	max-width: 1140px;
+	width: 96%;
+	padding-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.main {
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+
+}
+
+.main-text {
+	width: 55%;
+	margin-top: 50px;
+}
+
+.title {
+	display: block;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+.subtitle {
+	display: block;
+	font-size: 30px;
+	margin-left: 10px;
+	margin-top: 15px;	
+}
+
+.description {
+	display: block; 
+	font-size: 18px;
+	margin-top: 20px;	
+	margin-left: 10px;
+
+}
+
+.price {
+	display: block;
+	margin-top: 40px;
+	margin-left: 10px;
+	font-size: 48px;
+}
+
+.buttons {
+	margin-top: 50px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.btn {
+	font-size: 24px;
+	text-decoration: none;
+	padding: 18px 40px;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, 0.5); 
+}
+
+.btn-orange {
+	background-color: #f15921;
+	color: #fff;
+	margin-right: 40px;
+}
+
+.btn-primary {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #f15921;
+	border: 1px solid #f15921 ;
+}
+
+.corier {
+	background: url(car.png);
+	margin-top: 90px;
+	padding-bottom: 80px;
+	padding-top: 20px;
+	font-family: Tahoma;
+}
+ 
+.image {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 90px;
+	height: 38px;
+}
+
+
+.text-two {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	font-size: 16px;
+
+}
+
+
+
+.second-title {
+	font-size: 28px;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.information {
+	display: inline-block;
+}
+
+.third-title {
+	font-size: 28px;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.photo {
+	margin-bottom: 30px;
+	margin-top: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.photo-2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 90px;
+}
